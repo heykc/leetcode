@@ -10,5 +10,9 @@ local check_perfect_number = function (num)
   return total == num
 end
 
+assert(check_perfect_number(6))
 assert(check_perfect_number(28))
+assert(check_perfect_number(496))
+assert(check_perfect_number(8128))
 assert(not check_perfect_number(7))
+assert(not check_perfect_number(232))
